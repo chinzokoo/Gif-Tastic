@@ -1,0 +1,62 @@
+body {
+    	/*  Background fallback in case of IE8 & down, or in case video doesn't load, such as with slower connections  */
+	background: url(../images/background3.jpg) center center no-repeat fixed #464646;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-family: Lobster;
+}
+
+.ratings {
+    color:lawngreen;
+    font-family: avenir;
+    font-size: 18px;
+}
+
+h1 {
+    color: blue;
+    font-size: 60px;
+}
+
+.btn-primary {
+    margin-left: 10px;
+    background: yellow;
+    color: blue;
+}
+
+@media screen and (max-width: 480px) {
+    .movImage {
+        width: 500px;
+        height: 500px;
+    }
+    body {
+        background-color:#666666;
+    }
+}
+
+.form-control {
+    width: 30%;
+}
+
+#add {
+    font-size: 20px;
+    color: blue;
+}
+/** Footer Info **/
+footer{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    clear:both;
+    width:100%;
+    background-color: #666666;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    border-top: 4px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
+}
+/** End of Footer info **/
